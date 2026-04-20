@@ -1,0 +1,6 @@
+@UrbanSystemAPI_HostAddress = http://localhost:5161
+
+GET {{UrbanSystemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
