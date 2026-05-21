@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\UrbanSystemAPI.csproj": {}
+    "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\UrbanSystemAPI.csproj": {
+    "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
         "projectName": "UrbanSystemAPI",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\obj\\",
+        "projectPath": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.15, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.22.1, )"
@@ -79,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\hp\\source\\repos\\urbansystem\\urbansystemapi\\urbansystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,21 +61,184 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1835,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Program.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T20:45:03.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:09:24.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "File.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\File.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\File.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\File.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\File.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:08:45.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Setting.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:08:19.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Notification.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:08:07.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\AuditLog.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:07:56.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\RolePermission.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RolePermission.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:07:46.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Permission.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:07:23.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:07:08.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\UserRole.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:06:54.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Role.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:06:36.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\User.cs",
+              "RelativeToolTip": "UrbanSystemAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T21:00:02.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\appsettings.json",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\hp\\source\\repos\\UrbanSystem\\UrbanSystemAPI\\UrbanSystemAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\appsettings.json",
               "RelativeToolTip": "UrbanSystemAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-19T13:56:51.33Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1613,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

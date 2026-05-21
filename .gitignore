@@ -1,0 +1,19 @@
+# ASP.NET
+bin/
+obj/
+.vs/
+
+# React / Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
