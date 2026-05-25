@@ -28,6 +28,10 @@ Why: TanStack Query handles all server-side state — fetching, caching, backgro
 PackageVersionPurposezustand^5Lightweight global client state
 Why: For UI state that doesn't come from the server (e.g. sidebar open/closed, selected filters, modal state), Zustand is simple and boilerplate-free. It does not require a Provider wrapper and its API is minimal. Redux is overkill for this use case.
 
+# Internationalization (i18n)
+PackageVersionPurposei18nextlatestCore internationalization engine for translations, plurals, and formattingreact-i18nextlatestReact bindings providing the useTranslation hooki18next-browser-languagedetectorlatestAutomatically detects and persists the user's preferred language (browser settings/localStorage)
+Why: These libraries allow the application to support multiple languages (e.g., English and Albanian) efficiently. `i18next` handles complex localization rules natively. `react-i18next` connects the translation state directly to React preventing the need to manually re-render text changes, and the browser detector safely persists language choices across sessions.
+
 # Forms & Validation
 PackageVersionPurposereact-hook-form^7Performant form state managementzod^3Schema-based runtime validation@hookform/resolvers^3Connects Zod schemas to React Hook Form
 Why: React Hook Form avoids re-rendering the component on every keystroke, making forms fast. Zod schemas serve as the single source of truth for validation rules — z.infer<typeof schema> automatically generates the matching TypeScript type, so there is no duplication between runtime validation and type definitions.
