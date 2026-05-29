@@ -16,38 +16,42 @@
  * All hrefs are placeholders — replace with TanStack Router <Link to="..." />.
  */
 
-const FOOTER_LINKS = [
-  {
-    heading: "Services",
-    links: [
-      { label: "Urban Map",        href: "/map" },
-      { label: "Infrastructure",   href: "/services/infrastructure" },
-      { label: "Public Transport", href: "/services/transport" },
-      { label: "Waste Management", href: "/services/waste" },
-      { label: "Utilities",        href: "/services/utilities" },
-    ],
-  },
-  {
-    heading: "Company",
-    links: [
-      { label: "About Us",   href: "/about" },
-      { label: "Contact",    href: "/contact" },
-      { label: "Careers",    href: "/careers" },
-      { label: "Press",      href: "/press" },
-    ],
-  },
-  {
-    heading: "Resources",
-    links: [
-      { label: "Documentation", href: "/docs" },
-      { label: "Open Data",     href: "/data" },
-      { label: "API",           href: "/api" },
-      { label: "Status",        href: "/status" },
-    ],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export function Footer() {
+  const { t } = useTranslation();
+
+  const FOOTER_LINKS = [
+    {
+      heading: t("footer.services"),
+      links: [
+        { label: t("nav.map"),        href: "/map" },
+        { label: t("nav.infrastructure"), href: "/services/infrastructure" },
+        { label: t("nav.transport"),  href: "/services/transport" },
+        { label: t("nav.waste"),      href: "/services/waste" },
+        { label: t("nav.utilities"),  href: "/services/utilities" },
+      ],
+    },
+    {
+      heading: t("footer.company"),
+      links: [
+        { label: t("nav.about"),      href: "/about" },
+        { label: t("nav.contact"),    href: "/contact" },
+        { label: t("nav.careers"),    href: "/careers" },
+        { label: t("nav.press"),      href: "/press" },
+      ],
+    },
+    {
+      heading: t("footer.resources"),
+      links: [
+        { label: t("nav.docs"),       href: "/docs" },
+        { label: t("nav.open_data"),  href: "/data" },
+        { label: t("nav.api"),        href: "/api" },
+        { label: t("nav.status"),     href: "/status" },
+      ],
+    },
+  ];
+
   return (
     <footer className="border-t border-border bg-background mt-auto">
       <div className="mx-auto max-w-screen-xl px-4 md:px-6 py-12">
@@ -58,14 +62,13 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
             <a href="/" className="flex items-center gap-2 w-fit">
-              <KosovoMark />
+              <img src="/Emblema.png" alt="Emblema" className="w-5 h-5 object-contain" />
               <span className="font-semibold text-sm text-foreground">
-                Sistemi Urban<span className="text-primary"> i Kosovës</span>
+                {t("brand.title_prefix")}<span className="text-primary">{t("brand.title_highlight")}</span>
               </span>
             </a>
             <p className="text-xs text-muted-foreground leading-relaxed max-w-[220px]">
-              A unified platform for Kosovo's urban infrastructure, services,
-              and public data.
+              {t("brand.subtitle")}
             </p>
             {/* Social placeholders */}
             <div className="flex items-center gap-2">
@@ -73,7 +76,7 @@ export function Footer() {
                 <a
                   key={s}
                   href="#"
-                  className="w-7 h-7 rounded-md border border-border flex items-center justify-center text-[10px] font-semibold text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors"
+                  className="w-7 h-7 rounded-sm border border-border flex items-center justify-center text-[10px] font-semibold text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors"
                 >
                   {s}
                 </a>
@@ -106,37 +109,19 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Sistemi Urban i Kosovës. All rights reserved.
+            {t("brand.copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex items-center gap-4">
             <a href="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Privacy Policy
+              {t("footer.privacy_policy")}
             </a>
             <a href="/terms" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Terms of Use
+              {t("footer.terms_of_use")}
             </a>
           </div>
         </div>
 
       </div>
     </footer>
-  );
-}
-
-function KosovoMark() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M12 2L4 5.5V12c0 4.5 3.5 7.5 8 9.5 4.5-2 8-5 8-9.5V5.5L12 2Z"
-        fill="#244AA5"
-      />
-      <path
-        d="M9 11.5l2 2 4-4"
-        stroke="#E4C239"
-        strokeWidth="1.75"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
   );
 }

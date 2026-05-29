@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "title_prefix": "Sistemi Urban i",
+    "title_highlight": " Kosovës",
+    "subtitle": "A unified platform for Kosovo's urban infrastructure, services, and public data.",
+    "copyright": "© {{year}} Sistemi Urban i Kosovës. All rights reserved."
+  },
+  "hero": {
+    "badge": "New platform now live",
+    "description": "Explore real-time urban data, track infrastructure projects, and access public services in one unified platform."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "map": "Urban Map",
+    "about": "About Us",
+    "contact": "Contact",
+    "overview": "Overview",
+    "reports": "Reports",
+    "settings": "Settings",
+    "infrastructure": "Infrastructure",
+    "transport": "Public Transport",
+    "waste": "Waste Management",
+    "utilities": "Utilities",
+    "careers": "Careers",
+    "press": "Press",
+    "docs": "Documentation",
+    "open_data": "Open Data",
+    "api": "API",
+    "status": "Status"
+  },
+  "footer": {
+    "services": "Services",
+    "company": "Company",
+    "resources": "Resources",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use"
+  },
+  "buttons": {
+    "signIn": "Sign in",
+    "getStarted": "Get started",
+    "dashboard": "Dashboard",
+    "save": "Save",
+    "cancel": "Cancel",
+    "goHome": "Go to home",
+    "goBack": "Go back",
+    "tryRecover": "Try to recover"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist or may have been moved. Check the URL or head back home."
+    },
+    "general": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. You can try to recover below, or contact support if this keeps happening.",
+      "label": "Error",
+      "stackTrace": "Stack trace",
+      "devOnly": "(dev only)",
+      "unknown": "Unknown error"
+    }
+  }
+}

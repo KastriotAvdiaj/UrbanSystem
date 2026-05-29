@@ -20,6 +20,11 @@
 
 import { useState } from "react";
 import { ModeToggle } from "@/components/common/mode-toggle";
+import { useTranslation } from "react-i18next";
+import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
+import { useNavLinks } from "./useNavLinks";
+import { MobileMenu } from "./MobileMenu";
 
 // ---------------------------------------------------------------------------
 // Stub — replace with your real auth context
@@ -29,28 +34,13 @@ function useAuth() {
 }
 
 // ---------------------------------------------------------------------------
-// Nav link definitions — swap href strings for TanStack Router <Link> later
-// ---------------------------------------------------------------------------
-const PUBLIC_NAV = [
-  { label: "Home",     href: "/" },
-  { label: "Services", href: "/services" },
-  { label: "Map",      href: "/map" },
-  { label: "About",    href: "/about" },
-  { label: "Contact",  href: "/contact" },
-];
-
-const DASHBOARD_NAV = [
-  { label: "Overview",  href: "/dashboard" },
-  { label: "Reports",   href: "/dashboard/reports" },
-  { label: "Settings",  href: "/dashboard/settings" },
-];
-
-// ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
 export function Header() {
   const { isLoggedIn } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+  const { PUBLIC_NAV, DASHBOARD_NAV } = useNavLinks();
 
   const navLinks = isLoggedIn ? DASHBOARD_NAV : PUBLIC_NAV;
 
@@ -60,10 +50,10 @@ export function Header() {
 
         {/* Wordmark */}
         <a href="/" className="flex items-center gap-2 shrink-0">
-          <KosovoMark />
+          <img src="/Emblema.png" alt="Emblema" className="w-6 h-6 object-contain" />
           <span className="font-semibold text-sm tracking-tight text-foreground hidden sm:block">
-            Sistemi Urban i
-            <span className="text-accent"> Kosovës</span>
+            {t("brand.title_prefix")}
+            <span className="text-accent">{t("brand.title_highlight")}</span>
           </span>
         </a>
 
@@ -73,7 +63,7 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
+              className="px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-muted rounded-sm transition-colors"
             >
               {link.label}
             </a>
@@ -82,6 +72,15 @@ export function Header() {
 
         {/* Right side actions */}
         <div className="flex items-center gap-2">
+          {/* Language Switcher */}
+          <Button
+            variant="outline"
+            onClick={() => i18n.changeLanguage(i18n.resolvedLanguage === 'en' ? 'sq' : 'en')}
+            className="px-2 py-1.5 text-xs font-semibold border-none uppercase text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {i18n.resolvedLanguage === 'en' ? 'SQ' : 'EN'}
+          </Button>
+
           <ModeToggle />
 
           {isLoggedIn ? (
@@ -89,14 +88,14 @@ export function Header() {
             <div className="hidden md:flex items-center gap-2">
               <a
                 href="/dashboard"
-                className="px-3 py-1.5 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-lg transition-colors"
+                className="px-3 py-1.5 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-sm transition-colors"
               >
-                Dashboard
+                {t("buttons.dashboard")}
               </a>
               {/* User avatar placeholder */}
-              <button className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-semibold border border-primary/20 cursor-pointer">
+              <Button className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-semibold border border-primary/20 cursor-pointer">
                 U
-              </button>
+              </Button>
             </div>
           ) : (
             /* Guest actions */
@@ -105,114 +104,36 @@ export function Header() {
                 href="/login"
                 className="px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                Sign in
+                {t("buttons.signIn")}
               </a>
               <a
                 href="/register"
-                className="px-3 py-1.5 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-lg transition-colors"
+                className="px-3 py-1.5 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-sm transition-colors"
               >
-                Get started
+                {t("buttons.getStarted")}
               </a>
             </div>
           )}
 
           {/* Mobile hamburger */}
-          <button
-            className="md:hidden flex items-center justify-center w-8 h-8 rounded-md hover:bg-muted transition-colors cursor-pointer"
+          <Button 
+            variant="ghost"
+            size="icon"
+            className="md:hidden flex items-center justify-center w-8 h-8 rounded-sm hover:bg-muted transition-colors cursor-pointer"
             onClick={() => setMobileOpen((prev) => !prev)}
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <XIcon /> : <MenuIcon />}
-          </button>
+            {mobileOpen ? <X size={16} /> : <Menu size={16} />}
+          </Button>
         </div>
       </div>
 
-      {/* Mobile menu */}
-      {mobileOpen && (
-        <div className="md:hidden border-t border-border bg-background px-4 pb-4 pt-2 flex flex-col gap-1">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
-              onClick={() => setMobileOpen(false)}
-            >
-              {link.label}
-            </a>
-          ))}
-          <div className="border-t border-border mt-2 pt-2 flex flex-col gap-1">
-            {isLoggedIn ? (
-              <a
-                href="/dashboard"
-                className="px-3 py-2 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-lg transition-colors text-center"
-              >
-                Dashboard
-              </a>
-            ) : (
-              <>
-                <a
-                  href="/login"
-                  className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
-                >
-                  Sign in
-                </a>
-                <a
-                  href="/register"
-                  className="px-3 py-2 text-sm font-medium text-primary-foreground bg-primary hover:bg-primary/90 rounded-lg transition-colors text-center"
-                >
-                  Get started
-                </a>
-              </>
-            )}
-          </div>
-        </div>
-      )}
+      <MobileMenu
+        mobileOpen={mobileOpen}
+        setMobileOpen={setMobileOpen}
+        navLinks={navLinks}
+        isLoggedIn={isLoggedIn}
+      />
     </header>
-  );
-}
-
-// ---------------------------------------------------------------------------
-// Kosovo flag mark — blue shield shape with gold accent
-// ---------------------------------------------------------------------------
-function KosovoMark() {
-  return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      aria-hidden="true"
-    >
-      <path
-        d="M12 2L4 5.5V12c0 4.5 3.5 7.5 8 9.5 4.5-2 8-5 8-9.5V5.5L12 2Z"
-        fill="#244AA5"
-      />
-      <path
-        d="M9 11.5l2 2 4-4"
-        stroke="#E4C239"
-        strokeWidth="1.75"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function MenuIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-      <line x1="3" y1="6" x2="21" y2="6" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <line x1="3" y1="18" x2="21" y2="18" />
-    </svg>
-  );
-}
-
-function XIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-      <line x1="18" y1="6" x2="6" y2="18" />
-      <line x1="6" y1="6" x2="18" y2="18" />
-    </svg>
   );
 }

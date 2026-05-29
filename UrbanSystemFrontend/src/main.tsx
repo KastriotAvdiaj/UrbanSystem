@@ -7,6 +7,9 @@ import './index.css'
 import { NotFound } from './components/common/ErrorBoundary/NotFound'
 import { RootErrorBoundary } from './components/common/ErrorBoundary/RootErrorBoundary'
 
+// Initialize i18n
+import './lib/i18n'
+
 const queryClient = new QueryClient()
 const router = createRouter({ routeTree, context: {auth: undefined},
    defaultNotFoundComponent: NotFound,

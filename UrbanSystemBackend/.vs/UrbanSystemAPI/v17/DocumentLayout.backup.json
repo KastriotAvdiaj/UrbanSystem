@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\urbansystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\urbansystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|c:\\users\\pc\\source\\repos\\urbansystem\\urbansystembackend\\urbansystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1F8488E-59CE-424A-B757-D1103C51F71C}|UrbanSystemAPI\\UrbanSystemAPI.csproj|solutionrelative:urbansystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UrbanSystemAPI",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
+              "RelativeDocumentMoniker": "UrbanSystemAPI\\UrbanSystemAPI.csproj",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\UrbanSystemAPI.csproj",
+              "RelativeToolTip": "UrbanSystemAPI\\UrbanSystemAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-25T15:17:03.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Program.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Program.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Data\\ApplicationDbContext.cs",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "File.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\File.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\File.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Setting.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Setting.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Notification.cs",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\AuditLog.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\AuditLog.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RolePermission.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RolePermission.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\RolePermission.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Permission.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Permission.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Permission.cs",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\RefreshToken.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\RefreshToken.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\UserRole.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\Role.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\Role.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\Models\\User.cs",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UrbanSystem\\UrbanSystemBackend\\UrbanSystemAPI\\appsettings.json",
               "RelativeDocumentMoniker": "UrbanSystemAPI\\appsettings.json",
@@ -223,8 +240,7 @@
               "RelativeToolTip": "UrbanSystemAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-19T13:56:51.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T13:56:51.33Z"
             }
           ]
         },

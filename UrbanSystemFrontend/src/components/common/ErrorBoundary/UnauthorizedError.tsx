@@ -46,13 +46,13 @@ export function UnauthorizedError() {
         <div className="flex gap-2 mt-1">
           <Link
             to="/"
-            className="py-2 px-4 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+            className="py-2 px-4 text-sm font-medium rounded-sm bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
           >
             Sign in
           </Link>
           <Link
             to="/"
-            className="py-2 px-4 text-sm font-medium rounded-lg border border-border bg-card text-muted-foreground hover:bg-muted transition-colors"
+            className="py-2 px-4 text-sm font-medium rounded-sm border border-border bg-card text-muted-foreground hover:bg-muted transition-colors"
           >
             Go to home
           </Link>

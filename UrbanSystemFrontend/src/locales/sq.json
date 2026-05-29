@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "title_prefix": "Sistemi Urban i",
+    "title_highlight": " Kosovës",
+    "subtitle": "Një platformë e unifikuar për infrastrukturën urbane, shërbimet dhe të dhënat publike të Kosovës.",
+    "copyright": "© {{year}} Sistemi Urban i Kosovës. Të gjitha të drejtat e rezervuara."
+  },
+  "hero": {
+    "badge": "Platforma e re tani live",
+    "description": "Eksploroni të dhënat urbane në kohë reale, gjurmoni projektet infrastrukturore dhe qasuni në shërbimet publike në një platformë të unifikuar."
+  },
+  "nav": {
+    "home": "Ballina",
+    "services": "Shërbimet",
+    "map": "Harta Urbane",
+    "about": "Rreth Nesh",
+    "contact": "Kontakt",
+    "overview": "Pasqyra",
+    "reports": "Raportet",
+    "settings": "Cilësimet",
+    "infrastructure": "Infrastruktura",
+    "transport": "Transporti Publik",
+    "waste": "Menaxhimi i Mbeturinave",
+    "utilities": "Shërbimet Komunale",
+    "careers": "Karriera",
+    "press": "Media",
+    "docs": "Dokumentacioni",
+    "open_data": "Të Dhëna të Hapura",
+    "api": "API",
+    "status": "Statusi"
+  },
+  "footer": {
+    "services": "Shërbimet",
+    "company": "Kompania",
+    "resources": "Burimet",
+    "privacy_policy": "Politikat e Privatësisë",
+    "terms_of_use": "Kushtet e Përdorimit"
+  },
+  "buttons": {
+    "signIn": "Kyçu",
+    "getStarted": "Fillo",
+    "dashboard": "Paneli i Kontrollit",
+    "save": "Ruaj",
+    "cancel": "Anulo",
+    "goHome": "Shko në ballinë",
+    "goBack": "Kthehu prapa",
+    "tryRecover": "Provo të rikuperosh"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Faqja nuk u gjet",
+      "description": "Faqja që po kërkoni nuk ekziston ose mund të jetë zhvendosur. Kontrolloni URL-in ose kthehuni në ballinë."
+    },
+    "general": {
+      "title": "Diçka shkoi keq",
+      "description": "Ndodhi një gabim i papritur. Mund të provoni të rikuperoni më poshtë, ose të kontaktoni mbështetjen nëse kjo vazhdon të ndodhë.",
+      "label": "Gabim",
+      "stackTrace": "Gjurmët e grumbullit",
+      "devOnly": "(vetëm për dev)",
+      "unknown": "Gabim i panjohur"
+    }
+  }
+}

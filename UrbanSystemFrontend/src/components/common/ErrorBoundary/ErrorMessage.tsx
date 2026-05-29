@@ -73,7 +73,7 @@ export function ErrorMessage({
   }
 
   return (
-    <div role="alert" className="rounded-lg border border-destructive/20 bg-destructive/5 overflow-hidden">
+    <div role="alert" className="rounded-sm border border-destructive/20 bg-destructive/5 overflow-hidden">
       <div className="flex gap-3 items-start px-4 py-3">
         <TriangleAlertIcon size={15} className="shrink-0 mt-0.5 text-destructive" />
         <div className="flex flex-col gap-0.5">
@@ -101,7 +101,7 @@ export function ErrorMessage({
         <div className="border-t border-destructive/15 px-4 py-2 bg-destructive/5">
           <button
             onClick={onRetry}
-            className="text-xs font-medium px-2.5 py-1 rounded-md border border-destructive/25 bg-card text-destructive hover:bg-destructive/5 transition-colors cursor-pointer"
+            className="text-xs font-medium px-2.5 py-1 rounded-sm border border-destructive/25 bg-card text-destructive hover:bg-destructive/5 transition-colors cursor-pointer"
           >
             Try again
           </button>

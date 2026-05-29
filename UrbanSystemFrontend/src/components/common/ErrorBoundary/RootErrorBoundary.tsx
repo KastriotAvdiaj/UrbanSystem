@@ -30,13 +30,15 @@ import { useRouter } from "@tanstack/react-router";
 import type { ErrorComponentProps } from "@tanstack/react-router";
 import { UnauthorizedError } from "./UnauthorizedError";
 import { ForbiddenError } from "./ForbiddenError";
+import { useTranslation } from "react-i18next";
 
 export function RootErrorBoundary({ error, reset }: ErrorComponentProps) {
   const router = useRouter();
   const isDev = import.meta.env.DEV;
+  const { t } = useTranslation();
 
   const errorMessage =
-    error instanceof Error ? error.message : String(error ?? "Unknown error");
+    error instanceof Error ? error.message : String(error ?? t("errors.general.unknown"));
   const errorStack =
     isDev && error instanceof Error ? error.stack : undefined;
 
@@ -60,17 +62,16 @@ export function RootErrorBoundary({ error, reset }: ErrorComponentProps) {
 
         <div className="flex flex-col gap-1">
           <h1 className="text-xl font-semibold text-foreground tracking-tight">
-            Something went wrong
+            {t("errors.general.title")}
           </h1>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            An unexpected error occurred. You can try to recover below, or
-            contact support if this keeps happening.
+            {t("errors.general.description")}
           </p>
         </div>
 
-        <div className="flex flex-col gap-1 px-3 py-2.5 bg-destructive/5 border border-destructive/20 rounded-lg">
+        <div className="flex flex-col gap-1 px-3 py-2.5 bg-destructive/5 border border-destructive/20 rounded-sm">
           <span className="text-[10px] font-semibold uppercase tracking-widest text-destructive">
-            Error
+            {t("errors.general.label")}
           </span>
           <span className="text-xs font-mono text-destructive/80 break-all">
             {errorMessage}
@@ -78,10 +79,10 @@ export function RootErrorBoundary({ error, reset }: ErrorComponentProps) {
         </div>
 
         {isDev && errorStack && (
-          <details className="border border-border rounded-lg overflow-hidden">
+          <details className="border border-border rounded-sm overflow-hidden">
             <summary className="px-3 py-2 text-xs font-medium text-muted-foreground bg-muted cursor-pointer select-none">
-              Stack trace{" "}
-              <span className="text-muted-foreground/60">(dev only)</span>
+              {t("errors.general.stackTrace")}{" "}
+              <span className="text-muted-foreground/60">{t("errors.general.devOnly")}</span>
             </summary>
             <pre className="m-0 px-3 py-2.5 text-[10px] font-mono text-muted-foreground bg-background overflow-x-auto whitespace-pre-wrap break-all border-t border-border">
               {errorStack}
@@ -92,15 +93,15 @@ export function RootErrorBoundary({ error, reset }: ErrorComponentProps) {
         <div className="flex gap-2 mt-1">
           <button
             onClick={handleReset}
-            className="flex-1 py-2 px-4 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors cursor-pointer"
+            className="flex-1 py-2 px-4 text-sm font-medium rounded-sm bg-primary text-primary-foreground hover:bg-primary/90 transition-colors cursor-pointer"
           >
-            Try to recover
+            {t("buttons.tryRecover")}
           </button>
           <button
             onClick={() => router.navigate({ to: "/" })}
-            className="flex-1 py-2 px-4 text-sm font-medium rounded-lg border border-border bg-card text-muted-foreground hover:bg-muted transition-colors cursor-pointer"
+            className="flex-1 py-2 px-4 text-sm font-medium rounded-sm border border-border bg-card text-muted-foreground hover:bg-muted transition-colors cursor-pointer"
           >
-            Go to home
+            {t("buttons.goHome")}
           </button>
         </div>
 
